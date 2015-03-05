@@ -1,0 +1,105 @@
+@import url("custom.css");
+@import url("animate.css");
+body, html {
+	height: 100%;
+}
+body {
+	/*background-color: #3399CC;*/
+	/*background-color: #2AC996;*/
+}
+.intro {
+	width: 100%;
+	height: 100%;
+	background: url("../img/background.png") no-repeat center center fixed;
+	-webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 1);
+}
+.shop {
+	width: 100%;
+	min-height: 100%;
+	background-color: #2AC996; 
+}
+.kontakt {
+	width: 100%;
+	min-height: 100%;
+	background-color: #3399CC; 
+}
+.examples {
+	width: 100%;
+	min-height: 100%;
+	background-color: #E7E245; 
+}
+.htext {
+	font-family: lato; 
+	font-size: 15vmin; 
+	padding-top: 10%;
+}
+.htext3 {
+	font-family: lato; 
+	font-size: 11vmin; 
+}
+.htext2 {
+	font-family: lato; 
+	font-size: 10vmin; 
+	padding-top: 2.4%;
+}
+.crop {
+	float: left;
+	margin: .5em 10px .5em 0;
+	overflow: hidden;
+	height: 140px;
+}
+.crop:hover {
+	opacity: 0.8;
+}
+.crop img {
+	margin: -25px -0px -25px 0px;
+	height: 188px;
+}
+.cartfont {
+	font-family: lato;
+	font-size: 24px;
+}
+.box {
+	height: 400px;
+	width: 100%;
+	max-width: 250px;
+	background-color: #E7E8E3;
+	-webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+}
+.box2 {
+	height: 420px;
+	width: 100%;
+	max-width: 450px;
+	background-color: #E7E8E3;
+	-webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+}
+.box hr {
+	height: 3px;
+	background-color: #DEDFD9;
+}
+.cartul {
+	text-align: left;
+}
+.cartul li {
+	padding-bottom: 11px;
+}
+.cartcontent {
+	margin-top: 50%;
+}
+.cartcontent_behindert {
+	margin-top: 62%;
+}
+.thmb {
+	-webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+	border-radius: 15px;
+	height: 191px;
+	max-width: 100%;
+}

@@ -1,0 +1,116 @@
+.shine {
+	cursor: pointer;
+	position: absolute;
+	width: 200px;
+	top: 93%;
+	left: 50%;
+	height: 60px;
+	margin-left: -100px;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	color: #fff;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%,#000000 50%,rgba(0,0,0,0.6) 70%);
+	mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%,#000000 50%,rgba(0,0,0,0.6) 70%);
+	-webkit-mask-size: 200%;
+	mask-size: 200%;
+	-webkit-animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+	-moz-animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+	animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+}
+.shine:after {
+	content: '';
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	border-top: none;
+	border-left: none;
+	left: 50%;
+	margin-left: -5px;
+	margin-left: -5px;
+	transform: translateY(30%) rotate(45deg);
+	-moz-animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+	-webkit-animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+	animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+}
+.shine2 {
+	cursor: pointer;
+	position: absolute;
+	width: 200px;
+	top: 193%;
+	left: 50%;
+	height: 60px;
+	margin-left: -100px;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	color: #fff;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%,#000000 50%,rgba(0,0,0,0.6) 70%);
+	mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%,#000000 50%,rgba(0,0,0,0.6) 70%);
+	-webkit-mask-size: 200%;
+	mask-size: 200%;
+	-webkit-animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+	-moz-animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+	animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+}
+.shine2:after {
+		color: black;
+	content: '';
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	border-top: none;
+	border-left: none;
+	left: 50%;
+	margin-left: -5px;
+	margin-left: -5px;
+	transform: translateY(30%) rotate(45deg);
+	-moz-animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+	-webkit-animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+	animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+}
+.shine3 {
+	cursor: pointer;
+	position: absolute;
+	width: 200px;
+	top: 293%;
+	left: 50%;
+	height: 60px;
+	margin-left: -100px;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	color: black;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%,#000000 50%,rgba(0,0,0,0.6) 70%);
+	mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%,#000000 50%,rgba(0,0,0,0.6) 70%);
+	-webkit-mask-size: 200%;
+	mask-size: 200%;
+	-webkit-animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+	-moz-animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+	animation: shine 4s infinite, hover 2s alternate infinite ease-in-out;
+}
+.shine3:after {
+	content: '';
+	position: relative;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid black;
+	border-top: none;
+	border-left: none;
+	left: 50%;
+	margin-left: -5px;
+	margin-left: -5px;
+	transform: translateY(30%) rotate(45deg);
+	-moz-animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+	-webkit-animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+	animation: hoverSmall 2s 1s alternate infinite ease-in-out;
+}
+/* ANIMATIONS */
+@-webkit-keyframes shine{from{-moz-mask-position:150%;-webkit-mask-position:150%}to{-moz-mask-position:-50%;-webkit-mask-position:-50%}}
+@-webkit-keyframes hover{from{transform:translateY(-50%)}to{transform:translateY(-75%)}}
+@-webkit-keyframes hoverSmall{from{transform:translateY(30%) rotate(45deg)}to{transform:translateY(-10%) rotate(45deg)}}
+@keyframes shine{from{mask-position:150%}to{mask-position:-50%}}
+@keyframes hover{from{transform:translateY(-50%)}to{transform:translateY(-75%)}}
+@keyframes hoverSmall{from{transform:translateY(30%) rotate(45deg)}to{transform:translateY(-10%) rotate(45deg)}}
