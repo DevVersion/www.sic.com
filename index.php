@@ -26,7 +26,8 @@
 	<div class="intro">
 		<center>
 			<div class="animated bounceInDown">
-				<div class="htext">SIC</div>
+				<div class="htext">SI<img style="height: 11.5vmin; vertical-align: baseline" src="assets/img/cchar.png"></div>
+
 				<div class="htext3">
 					<font color="#DF4B3C">print</font>
 					<font color="#3DBE87">fresh</font>
