@@ -145,7 +145,7 @@
 					<label>Nachricht</label>
 					<textarea class="form-control" style="width: 100%; max-width: 400px; height: 140px; resize: none" allowresize="false"></textarea>
 					<br>
-					<button class="btn btn-success" style="width: 45%">Kaufen</button>
+					<button class="btn btn-success" style="width: 45%">Absenden</button>
 				</div>
 			</div>
 		</center>
