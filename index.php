@@ -159,5 +159,4 @@
 
 <!-- ### FAST LOADING SCRIPTS ### -->
 <script type="text/javascript" src="./app.js"></script>
-<script src='js/css3-animate-it.js'></script>
 </html>
