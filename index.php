@@ -4,7 +4,6 @@
 	<title>SIC</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/animations.css" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
@@ -34,8 +33,34 @@
 				</div>
 			</div>
 		</center>
-		<div class="shine" onClick="scrollNumber(1)">Mehr erfahren</div>
 	</div>
+
+	<div class="images">
+        <center>
+            <div class="htext2">Screenshots</div>
+            <br><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="thmb2" src="assets/img/shots/screen1.png">
+					</div>
+					<div class="col-md-6">
+						<img class="thmb2" src="assets/img/shots/screen2.png">
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="thmb2" src="assets/img/shots/screen3.png">
+					</div>
+					<div class="col-md-6">
+						<img class="thmb2" src="assets/img/shots/screen4.png">
+					</div>
+				</div>
+			</div>
+        </center>
+
+    </div>
 
 	<div class="shop">
 		<center>
@@ -94,7 +119,6 @@
 			</div>
 
 		</center>
-		<div class="shine2" onClick="scrollNumber(2)">Mehr erfahren</div>
 	</div>
 
 	<div class="examples">
@@ -151,11 +175,13 @@
 			</div>
 		</center>
 		<br><br>
-		<div class="container">
-
-		</div>
-		<div class="shine3" onClick="scrollNumber(3)">Mehr erfahren</div>
 	</div>
+
+    <div class="shine" onClick="scrollNumber(1)">Mehr erfahren</div>
+    <div class="shine2" onClick="scrollNumber(2)">Mehr erfahren</div>
+    <div class="shine3" onClick="scrollNumber(3)">Mehr erfahren</div>
+    <div class="shine4" onClick="scrollNumber(4)">Mehr erfahren</div>
+
 </body>
 
 <!-- ### FAST LOADING SCRIPTS ### -->
